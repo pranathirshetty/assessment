@@ -1,0 +1,65 @@
+.body
+{
+    background-color:white;
+
+}.heading
+{
+    background-color:aqua;
+    border:1px solid black;
+    padding:50px 10px 20px 30px;
+}
+.welcom
+{
+    font-weight:bold;
+    font-size:30px;
+}
+
+.web
+{
+    color:red;
+    font-weight:bold;
+    font-size:30px;
+}
+.intro
+{
+    border:1px solid grey;
+    text-align:left;
+}
+.img
+{
+    border:1px solid black;
+    padding:0px 1350px 0px 0px;
+
+}
+
+.tabl
+{
+    border:2px solid black;
+}
+
+td,tr,th
+{
+border:1px solid black;
+
+}
+.orderedlist
+{
+    border:1px solid black;
+}
+tr:hover{
+    background-color:bisque;
+}
+.contact
+{
+      border:1px solid black;
+      padding:10px;
+}
+.Zone
+{
+     border:1px solid black;
+     padding:10px;
+}
+.student 
+{
+    font-size:25px;
+}
