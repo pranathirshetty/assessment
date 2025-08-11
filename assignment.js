@@ -7,7 +7,7 @@
   const li=document.createElement("li")
     li.textContent=input.value;
     data.appendChild(li);
-   
+   input.value=""
 });
 
 const a=document.getElementById("call");
@@ -19,7 +19,7 @@ const b = async () => {
             const row = document.createElement("tr");
               const id = document.createElement("td");
             id.textContent = el.id;
-            const name = document.createElement("th");
+            const name = document.createElement("td");
             name.textContent = el.name;
              const email = document.createElement("td");
             email.textContent = el.email;
@@ -34,6 +34,6 @@ const b = async () => {
 
   const background = document.getElementsByClassName("colour");
   background[0].addEventListener("click", () => {
-    document.body.style.backgroundColor =
-    document.body.style.backgroundColor === "white"?"lightblue":"white";
+    // document.body.style.backgroundColor === "white"?"lightblue":"white";
+    document.body.classList.toggle("students")
 });

@@ -1,8 +1,4 @@
-.body
-{
-    background-color:white;
-
-}.heading
+.heading
 {
     background-color:aqua;
     border:1px solid black;
@@ -62,4 +58,9 @@ tr:hover{
 .student 
 {
     font-size:25px;
+}
+
+.students 
+{
+background-color:rgb(40, 167, 199)
 }
