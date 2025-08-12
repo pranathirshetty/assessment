@@ -12,5 +12,4 @@ insert into students values (10,"Sneha Kapoor",22,"Civil Engineering");
 select * from students where course="Information Technology";
 UPDATE students SET course="Mechanical" WHERE id=3;
 DELETE FROM students WHERE name="Ravi Kumar";
-
 select * from students;
