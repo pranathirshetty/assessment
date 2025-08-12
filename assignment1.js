@@ -13,19 +13,19 @@ const students = [
 
 
 //1.
-/*students.map((el) => {
+students.map((el) => {
 	const a=el.name;
     console.log(a);
-});*/
-/*const d=students.map((el)=>
+});
+const d=students.map((el)=>
 {
    return `name:${el.name}   course: ${el.course}`;
 });
- console.log(d);*/
+ console.log(d);
 
 
  //2.
-/* students.map((el)=>
+ students.map((el)=>
 {
  if(el.marks>=60)
  {
@@ -37,73 +37,73 @@ const students = [
  }
 });
 console.log(students);
-*/
+
 
 
 //3.
-/*const d=students.map((el)=>
+const de=students.map((el)=>
 {
    return `${el.name}-${el.course}`;
 });
- console.log(d);*/
+ console.log(de);
 
 
 //4.
-/*students.map((el)=>
+students.map((el)=>
 {
  el.marks=el.marks+5;
 });
-console.log(students);*/
+console.log(students);
 
 
 //1.
-/*const f= students.filter((el) => el.course === "Computer Science");
-console.log(f);*/
+const f= students.filter((el) => el.course === "Computer Science");
+console.log(f);
 
 //2.
-/*const g=students.filter((el)=>el.marks>=80);
+const g=students.filter((el)=>el.marks>=80);
 console.log(g);
-*/
+
 
 //3.
-/*const h=students.filter((el)=>el.feesPaid==false);
-console.log(h);*/
+const he=students.filter((el)=>el.feesPaid==false);
+console.log(he);
 
 //4.
-/*const i=students.filter((el)=> el.age>20&&el.marks>70);
-console.log(i);*/
+const i=students.filter((el)=> el.age>20&&el.marks>70);
+console.log(i);
 
 //5.
-/*const j=students.filter((el)=> el.course==="Mechanical"&&el.marks<85);
-console.log(j);*/
+const j=students.filter((el)=> el.course==="Mechanical"&&el.marks<85);
+console.log(j);
 
 
 //1.
-/*const k=students.reduce((cur,index)=>
+const re=students.reduce((cur,index)=>
 {
    return cur+index.marks;
 },0);
-console.log(k);*/
+console.log(re);
 
 //2.
-/*const k=students.reduce((cur,index)=>
+const k=students.reduce((cur,index)=>
 { 
 
  return sum= cur+index.marks;
  
 },0);
 const avg=k/10;
-console.log(avg);*/
+console.log(avg);
 //const avg=k/id.length;
 //console.log(avg);
 
 //3.
-/*const h=students.filter((el)=>el.feesPaid==true).reduce((acc)=>{return acc+1},0);
-console.log(h);*/
+const h=students.filter((el)=>el.feesPaid==true).reduce((acc)=>{return acc+1},0);
+console.log(h);
 
 
 //4.
-/*const o=students.reduce((i,el)=>
+const o=students.reduce((i,el)=>
 {
    if(el.marks>i.marks)
    {
@@ -114,11 +114,11 @@ console.log(h);*/
      return i;
    }}
 );
-console.log(o.marks);*/
+console.log(o.marks);
 
 //5.
 
-/*const m=students.filter((el)=>
+const m=students.filter((el)=>
 {
  return el.course==="Computer Science";
 });
@@ -139,7 +139,7 @@ const q=students.filter((el)=>
 const r=students.filter((el)=>
 {
    return el.course==="Civil Engineering";
-});*/
+});
 
 const array={};
 students.forEach(student=>
