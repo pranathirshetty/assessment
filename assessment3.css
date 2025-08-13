@@ -1,0 +1,20 @@
+.foot
+{
+    background-color:black;
+    color:rgb(243, 234, 234);
+    border:20px solid black;
+  margin:1px;
+  font-size:18px;
+}
+
+.copy
+{
+    background-color:grey;
+    gap:none;
+    font-size:18px;
+}
+h1
+{
+    background-color:rgb(64, 155, 45);
+padding:15px;
+}
