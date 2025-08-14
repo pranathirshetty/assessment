@@ -10,6 +10,13 @@ a.style.padding="10px 10px";
 h.appendChild(a);
 }
 
+const background = document.getElementsByClassName("colour");
+background[0].addEventListener("click", () => {
+  // document.body.style.backgroundColor === "white"?"lightblue":"white";
+  document.body.classList.toggle("students");
+});
+
+
 /*for(let i=5;i<15;i++)
 { 
     let a= new Image(300,300);
